@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>Praktikum 2</title>
+    </head>
+    <body>
+        <img src="Jerome.jpeg" width="180" height="200" alt="photo"/> 
+        <h1>Kurus Matematika Bareng Jerome Polin</h1>
+        <h3>Form Data Diri</h3>
+        <table>
+            <tr>
+                <td width="120" >Nama Lengkap</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="120" >E-mail</td>
+                <td><input type="email" required = "email"></td>
+            </tr>
+            <tr>
+                <td width="120" >Password</td>
+                <td><input type="password" required ></td>
+            </tr>
+            <tr>
+                <td width="120" >Tempat Lahir</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="120" >Tanggal Lahir</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td width="120" >Jenis Kelamin</td>
+                <td><input type="radio" name="jk" >Laki-Laki</td>
+                <td><input type="radio" name="jk" >Perempuan</td>
+            </tr>
+            <tr>
+                <td width="120" >Nomer HP</td>
+                <td><input type="number"></td>
+            </tr>
+           
+        </table>
+        Akun sosial Media Yang Dimiliki
+        <br>
+        <input type="checkbox" name="medsos" value="ig">Instafram<br>
+        <input type="checkbox" name="medsos" value="fb">Facebook<br>
+        <input type="checkbox" name="medsos" value="twit">twitter<br>
+        <input type="checkbox" name="medsos" value="wa">WhatsAPP<br>
+        <table>
+        <tr>
+            Alamat lengkap
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </tr>
+        </table>  
+        <h3>Form Paket</h3> 
+        <table>
+            <tr>
+                <section>
+                    <p>Paket Yang Tersedia</p>
+                    <ol>
+                        <li>Kalkulus</li>
+                        <li>Trigonometri</li>
+                        <li>Matemaika Dasar</li>
+                        <li>Aljabar</li>
+                    </ol>
+            Periode Masuk
+                
+                <select>
+                    <option value="peride 1">Periode 1: Tanggal 1</option>
+                    <option value="peride 2">Periode 2: Tanggal 8</option>
+                    <option value="peride 3">Periode 1: Tanggal 15</option>
+                    <option value="peride 4">Periode 1: Tanggal 22</option>
+                    <option value="peride 5">Periode 1: Tanggal 29</option>
+                </select>
+                <tr>
+                Paket Yang Diinginkan
+                <select>
+                    <option value="paket 1">Paket 1 : Rp.1000000</option>
+                    <option value="peride 2">Paket 2 : Rp.1500000</option>
+                    <option value="peride 3">Paket 3 : Rp.2000000</option>
+                </select>
+                </tr>
+                </section>
+            </tr>
+           
+        </table>
+        Calon Peserta Wajib Membaca: 
+        <nav>
+            <a href="/aturan">Aturan Kursusan</a>
+            <br>
+            <a href="/bayar">Mekanisme Pembayaran</a>
+            <br>
+            <a href="/alamat">Alamat Lengkap Kursusan</a>
+        </nav>
+        </label>
+        <h3>Form Kelengkapan</h3>
+        <br>
+        Masukan Surat Izin Orang Tua
+        <input type="file">
+        <br>
+        Masukan sertifikat Vaksin
+        <button style="display: inline-block; width: 80; height: 22;">
+            browse...
+        </button>
+        <tr>
+        <td>
+            <br>
+            <input type="submit" value="simpan">
+            <input type="reset" value="reset">
+            <input type="button" value="kembali">
+        </td>
+        </tr>
+        <h3> Form Login</h3>
+        <fieldset>
+            <legend>Login</legend>
+            <label for="username">username</label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">password</label>
+            <input type="text" name="password" id="password" required pattern="[A-Z{3} [0-9]{3}" title="Password harus terdiri dari 3 huruf dan 3 angka">
+        </fieldset>
+    </body>
+</html>
